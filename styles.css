@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#company-logo img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    max-width: 800px; /* Restrict the width to appear paper-sized on screen */
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Assessment Styles */
+
+
+#assessment-form label {
+    margin-top: 10px;
+}
+
+#assessment-form input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /*Space between radio buttons*/
+}
+
+.radio-group input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+#assessment-form button {
+    background-color: #28a745;
+}
+
+#assessment-form button:hover {
+    background-color: #218838;
+}
+
+#assessment-section {
+    margin-bottom: 100px; /* Add space at the bottom of the section */
+}
